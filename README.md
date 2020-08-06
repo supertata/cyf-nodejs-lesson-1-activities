@@ -4,7 +4,7 @@
 
 - Download and install [Postman](https://www.postman.com/)
 
-## Exercise 1: Discuss known APIs ( 5 minutes ) 🤔
+## Exercise 1: Discuss known APIs ( 10 minutes ) 🤔
 
 Group exercise
 
@@ -20,7 +20,7 @@ In your groups discuss the following questions:
 
 ---
 
-## Exercise 2: Experiment with some APIs ( 5 minutes ) 🤔
+## Exercise 2: Experiment with some APIs ( 10 minutes ) 🤔
 
 Group exercise
 
@@ -60,7 +60,7 @@ Think about how you could make a request that results in an error.
 
 **BREAK**
 
-**Introducing NodeJS, backend and servers**
+**Introducing NodeJS, backend and servers Mitch**
 
 ---
 
@@ -68,9 +68,9 @@ Think about how you could make a request that results in an error.
 
 ---
 
-## Exercise 3: Building your first server - part 1 (25 mins)
+## Exercise 3: Building your first server - part 1 ( 25 mins )
 
-Group exercise (20 mins)
+Group exercise
 
 1. Create a `package.json` by runnning the command:
 
@@ -130,7 +130,9 @@ Don't worry if it isn't perfect as we'll discuss it as a whole in class but this
 
 ---
 
-## Exercise 5: Building your first server - part 2) ( 25 minutes )
+## Exercise 5: Building your first server - part 2 ( 25 minutes )
+
+Group exercise
 
 1. Update your `package.json` to add a **start** script to your `package.json`
    Try running your npm script by running the command:
@@ -172,8 +174,8 @@ Discuss them in your group. Try to get collaboration from everyone in your group
 
 Set up some more handler functions for the following endpoints:
 
-method: `GET`, path: `/songs`
-response content-type : JSON
+method: `GET`, path: `/songs`,
+response `Content-Type` : JSON
 
 Response body should be a JSON sobject in the following form:
 
@@ -183,8 +185,8 @@ Response body should be a JSON sobject in the following form:
 }
 ```
 
-method: `GET` path: `/songs/:song_id`
-response content-type: JSON
+method: `GET`, path: `/songs/:song_id`,
+response `Content-Type`: JSON
 
 Response body should be a JSON object in the following form:
 
@@ -210,7 +212,7 @@ The server should respond with
 
 ---
 
-## Exercise 7: Using query parameters (3s0 minutes)
+## Exercise 7: Using query parameters ( 25 minutes )
 
 1. Use the itunes API 👉 `https://itunes.apple.com/search` to get **5 tracks** by the greatest rock band of all time (Clue: The band is called **radiohead**)
    You can use a `limit` query and a `term` query in order to filter the results from the API.
@@ -228,3 +230,6 @@ Your response should now take the following form:
   "artist": "The client asked for songs by Kelela"
 }
 ```
+
+This would be the response if client made an API request in the following form:
+`GET` `/songs?limit=3&artist=kelela`
