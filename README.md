@@ -20,42 +20,6 @@ In your groups discuss the following questions:
 
 ---
 
-## Exercise 2: Experiment with some APIs ( 10 minutes ) 🤔
-
-Group exercise
-
-Pick a couple of the APIs below and experiment with them, modify the requests, report your findings. Use Postman for this task.
-
-Think about how you could make a request that results in an error.
-
-1. http://www.tvmaze.com/api
-
-   **Example request: http://api.tvmaze.com/shows/82/episodes**
-
-2. Sunrise/Sunset times: https://sunrise-sunset.org/api
-
-   **Example request: Sunset in Bethnal Green: https://api.sunrise-sunset.org/json?lat=51.5311&lng=0.0481**
-
-3. Google Books API: https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
-
-4. Star Wars API: https://swapi.co/
-
-   **Example request: https://swapi.co/api/people/1/**
-
-5. UK Police Data. https://data.police.uk/docs/
-
-   **Example requests: street-level crimes, Old Street, London: https://data.police.uk/api/crimes-street/all-crime?lat=51.5268&lng=0.0866**
-
-6. iTunes Search API: https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
-
-   **Example request: All Beyonce's music videos: https://itunes.apple.com/search?term=beyonce&entity=musicVideo**
-
-7. CYF resource-library https://resource-library.codeyourfuture.io/api/resources
-
-8. (Difficult) Wikipedia API: https://en.wikipedia.org/w/api.php?
-
----
-
 **Lesson Difference between UI and API Mitch**
 
 **BREAK**
@@ -68,7 +32,7 @@ Think about how you could make a request that results in an error.
 
 ---
 
-## Exercise 3: Building your first server - part 1 ( 25 mins )
+## Exercise 2: Building your first server - part 1 ( 25 mins )
 
 Group exercise
 
@@ -114,7 +78,7 @@ Ctrl + C
 
 ---
 
-## Exercise 4: Using express documentation ( 10 minutes ) 🤔
+## Exercise 3: Using express documentation ( 10 minutes ) 🤔
 
 Group exercise
 
@@ -130,7 +94,7 @@ Don't worry if it isn't perfect as we'll discuss it as a whole in class but this
 
 ---
 
-## Exercise 5: Building your first server - part 2 ( 25 minutes )
+## Exercise 4: Building your first server - part 2 ( 25 minutes )
 
 Group exercise
 
@@ -170,7 +134,7 @@ Discuss them in your group. Try to get collaboration from everyone in your group
 
 ---
 
-## Exercise 6: Using request parameters (20 minutes)
+## Exercise 5: Using request parameters (20 minutes)
 
 Set up some more handler functions for the following endpoints:
 
@@ -212,7 +176,7 @@ The server should respond with
 
 ---
 
-## Exercise 7: Using query parameters ( 25 minutes )
+## Exercise 6: Using query parameters ( 25 minutes )
 
 1. Use the itunes API 👉 `https://itunes.apple.com/search` to get **5 tracks** by the greatest rock band of all time (Clue: The band is called **radiohead**)
    You can use a `limit` query and a `term` query in order to filter the results from the API.
