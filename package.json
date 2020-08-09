@@ -1,0 +1,23 @@
+{
+  "name": "cyf-nodejs-lesson-1-activities",
+  "version": "1.0.0",
+  "description": "## Preliminary tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeYourFuture/cyf-nodejs-lesson-1-activities.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeYourFuture/cyf-nodejs-lesson-1-activities/issues"
+  },
+  "homepage": "https://github.com/CodeYourFuture/cyf-nodejs-lesson-1-activities#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

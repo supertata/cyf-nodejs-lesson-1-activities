@@ -11,8 +11,28 @@ Group exercise
 In your groups discuss the following questions:
 
 1. What is an API ?
+
+- the most important word here is interface. One one side there is a consumer and on the other there is a provider. The interface is made to make it easier to communicate between the receiver and the sender. (client /server).
+- a url/link to
+- a program that can give access to data and is accessible
+  -through a url. The API enables us to manipulate the data through
+  methods such as post, get etc.
+- its an access point to give access to users
+
 2. Why do we use APIs in software development ?
+
+- API is like a middle man that translates between the back end and the front end.
+- help the communication between the server and the client (act like a gate)
+- manage/control access to the data
+- one it is set up it can be accessed from anywhere
+
 3. Give an example of some APIs you've worked with on the course and what they did
+
+- weather app API
+- tv maze
+- react hotels
+- Transport for London
+- React Library
 
 ---
 
@@ -117,16 +137,26 @@ Now make a `GET` request to the server using Postman and see if you get your res
 Do you understand the following terms:
 Discuss them in your group. Try to get collaboration from everyone in your group - team spirit! 💪
 
-- Client
+- Client:
+  PostMan is a client that sends a request to a server.
 - Server
+  a program that listens for requests from clients and send responses (for example app in express)
 - Front-end
+  the user interface, the way the data is visualized by the browser.
 - Back-end
+  op3ration of retrieving data from a database. database + server = backend. system responsible for providing data that is made up of database + server. a server that interacts with a database and send a response back to the client.
 - Full stack developer
+  A developper that works on both front and back end together to build an interactive application.
 - Request
+  Method to retrieve data from the server. Made by a client.
 - Response
+  a method used by the server to provide data to the client.
 - HTTP
+  protocol that all sides agree to use to communicate between client and server.
 - HTTP Response Codes
+  it's part of HTTP protocal. For example is the server response is succesful, response code is 200.
 - HTTP Request Methods (or Verbs)
+  For example GET, POST, SEND, DELETE.
 
 ---
 
